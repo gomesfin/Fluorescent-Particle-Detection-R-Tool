@@ -1,14 +1,3 @@
----
-title: "Identifying Fluorescent Probes in Confocal Images of Neurons"
-author: "Analysis Workflow"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: united
----
-
 # Project Overview
 
 This project provides an R-based workflow for automatically identifying and analyzing fluorescent probes (particles) in confocal microscopy images. The scripts load an image, apply a series of filters to enhance particle features, detect potential particles by finding local intensity maxima, and then apply a statistical threshold to isolate the most likely candidates.
